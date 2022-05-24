@@ -1,0 +1,36 @@
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient( 339deg, #000000, #001bff);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.scl1{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	background: linear-gradient( -55deg, #04fefe, #ff005a);
+  border-radius: 50%;
+  transform: translate(50px, -150px);
+}
+.scl{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background: 
+	linear-gradient( -90deg, #0501fc, #ff0101);
+  border-radius: 81% 19% 17% 83% / 60% 20% 80% 40% ;
+  transform: translate(-100px, 100px);
+  z-index: -1;
+}
+.nb-box{
+	position: absolute;
+    height: 300px;
+    width: 500px;
+    background: #ffffff36;
+    backdrop-filter: blur(6px);
+    box-shadow: 2px 2px 11px 0px #000000bd;
+    border-radius: 20px;
+}
